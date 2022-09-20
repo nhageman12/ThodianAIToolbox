@@ -1,0 +1,6 @@
+framework module ThodianAIToolbox {
+  umbrella header "ThodianAIToolbox-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7AD4E0969F78FC4F7ABCE609FD9387 /* Pods-ThodianAIToolbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E13FA417C282AE6F5EADF99AE6BD2D /* Pods-ThodianAIToolbox_Tests-dummy.m */; };
+		27D6DD00DFC4D418661B530FD2763E7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		2B39F2E0006AB26E4BD739BB7FA7877C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9783CB058290F298768499025AE70F9 /* ReplaceMe.swift */; };
+		4ED101F93CDC071E1C52D0487DD9465C /* ThodianAIToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2DB459DC7A9932F1EDA39D5B674426 /* ThodianAIToolbox-dummy.m */; };
+		5EE63958E6C397BAFCC254BB2B51D1BC /* Pods-ThodianAIToolbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A629B27CA74A0C845939A3B6AEE1B3 /* Pods-ThodianAIToolbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73000C661C00F590387D6D36CF7203FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		D33DC7C1F70E70CD5D31ED48776A2874 /* ThodianAIToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C205B5900B07FB0D8A12D155102F8D1B /* ThodianAIToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B3945DF7AACF9B79F0B47F074CB05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E44C90B334F624453FD530A577731C;
+			remoteInfo = ThodianAIToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A629B27CA74A0C845939A3B6AEE1B3 /* Pods-ThodianAIToolbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThodianAIToolbox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15E13FA417C282AE6F5EADF99AE6BD2D /* Pods-ThodianAIToolbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThodianAIToolbox_Tests-dummy.m"; sourceTree = "<group>"; };
+		189007170F39B1F76F552732B26C174F /* Pods-ThodianAIToolbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThodianAIToolbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FEC0545F05133451D054B391098A69D /* ThodianAIToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThodianAIToolbox.modulemap; sourceTree = "<group>"; };
+		23384113F46EF9EDBAA56539EDAE5A49 /* Pods-ThodianAIToolbox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThodianAIToolbox_Tests-Info.plist"; sourceTree = "<group>"; };
+		239AD21C23EDCBC0DC0C7E0204D30AE3 /* Pods-ThodianAIToolbox_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ThodianAIToolbox_Tests"; path = Pods_ThodianAIToolbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D67A002A3899EDD87922EAA3D248AF /* Pods-ThodianAIToolbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThodianAIToolbox_Tests.modulemap"; sourceTree = "<group>"; };
+		3A8D4FAD799E404E8050D667AC22DEED /* ThodianAIToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThodianAIToolbox.release.xcconfig; sourceTree = "<group>"; };
+		3E2DB459DC7A9932F1EDA39D5B674426 /* ThodianAIToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThodianAIToolbox-dummy.m"; sourceTree = "<group>"; };
+		4DBAE458ABAD37E5F0676F8DC934F893 /* ThodianAIToolbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThodianAIToolbox-Info.plist"; sourceTree = "<group>"; };
+		5DDE980C412FF7BD7F56B886EFBD1E86 /* Pods-ThodianAIToolbox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThodianAIToolbox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		64FB8B9FD002894C587614D52FD345D5 /* ThodianAIToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThodianAIToolbox.debug.xcconfig; sourceTree = "<group>"; };
+		6BCF86C4DE6A66F301169FCF6A1F4BB2 /* ThodianAIToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThodianAIToolbox-prefix.pch"; sourceTree = "<group>"; };
+		9494A5AEEB0EE2B1AED952270E2B3130 /* ThodianAIToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThodianAIToolbox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A66A6E5A7A8B73EAEDDD8B334B7339C9 /* ThodianAIToolbox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThodianAIToolbox; path = ThodianAIToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A738DCF29BA164ED86E234DC429565A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ACA14DC18C0DB11CA9EA6AF35E466F7F /* Pods-ThodianAIToolbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThodianAIToolbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C205B5900B07FB0D8A12D155102F8D1B /* ThodianAIToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThodianAIToolbox-umbrella.h"; sourceTree = "<group>"; };
+		C839E7F6128060EBCAE09ECF5AA0BEA4 /* Pods-ThodianAIToolbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThodianAIToolbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5926442E9CCD22C466D0D0D3D69DED4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9783CB058290F298768499025AE70F9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ThodianAIToolbox/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FA585A922954B1E94A53EC2DF73E5778 /* Pods-ThodianAIToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThodianAIToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E15EE9B06075970643CBA0AEDEB167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D6DD00DFC4D418661B530FD2763E7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A8F6B6A2D309054710EF3F85B696F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73000C661C00F590387D6D36CF7203FA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BAE968F25A166720BA25E02F723585 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6A0895056639AC8F5DF20DC7D4522 /* Pods-ThodianAIToolbox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46D82D534365377A618CB53754B3E6B5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1E85B9F110B580F15DD6AEAC266E038 /* ThodianAIToolbox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8497FA6C232E822B41B519479C48BF98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC0545F05133451D054B391098A69D /* ThodianAIToolbox.modulemap */,
+				3E2DB459DC7A9932F1EDA39D5B674426 /* ThodianAIToolbox-dummy.m */,
+				4DBAE458ABAD37E5F0676F8DC934F893 /* ThodianAIToolbox-Info.plist */,
+				6BCF86C4DE6A66F301169FCF6A1F4BB2 /* ThodianAIToolbox-prefix.pch */,
+				C205B5900B07FB0D8A12D155102F8D1B /* ThodianAIToolbox-umbrella.h */,
+				64FB8B9FD002894C587614D52FD345D5 /* ThodianAIToolbox.debug.xcconfig */,
+				3A8D4FAD799E404E8050D667AC22DEED /* ThodianAIToolbox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThodianAIToolbox";
+			sourceTree = "<group>";
+		};
+		91137C87F9BC2CAF11DB86D9E553096D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239AD21C23EDCBC0DC0C7E0204D30AE3 /* Pods-ThodianAIToolbox_Tests */,
+				A66A6E5A7A8B73EAEDDD8B334B7339C9 /* ThodianAIToolbox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E85B9F110B580F15DD6AEAC266E038 /* ThodianAIToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				F9783CB058290F298768499025AE70F9 /* ReplaceMe.swift */,
+				AF2AAE2257089CCBCD67ABAE55FAADD2 /* Pod */,
+				8497FA6C232E822B41B519479C48BF98 /* Support Files */,
+			);
+			name = ThodianAIToolbox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AF2AAE2257089CCBCD67ABAE55FAADD2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A738DCF29BA164ED86E234DC429565A8 /* LICENSE */,
+				E5926442E9CCD22C466D0D0D3D69DED4 /* README.md */,
+				9494A5AEEB0EE2B1AED952270E2B3130 /* ThodianAIToolbox.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B6C6A0895056639AC8F5DF20DC7D4522 /* Pods-ThodianAIToolbox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24D67A002A3899EDD87922EAA3D248AF /* Pods-ThodianAIToolbox_Tests.modulemap */,
+				189007170F39B1F76F552732B26C174F /* Pods-ThodianAIToolbox_Tests-acknowledgements.markdown */,
+				C839E7F6128060EBCAE09ECF5AA0BEA4 /* Pods-ThodianAIToolbox_Tests-acknowledgements.plist */,
+				15E13FA417C282AE6F5EADF99AE6BD2D /* Pods-ThodianAIToolbox_Tests-dummy.m */,
+				5DDE980C412FF7BD7F56B886EFBD1E86 /* Pods-ThodianAIToolbox_Tests-frameworks.sh */,
+				23384113F46EF9EDBAA56539EDAE5A49 /* Pods-ThodianAIToolbox_Tests-Info.plist */,
+				10A629B27CA74A0C845939A3B6AEE1B3 /* Pods-ThodianAIToolbox_Tests-umbrella.h */,
+				FA585A922954B1E94A53EC2DF73E5778 /* Pods-ThodianAIToolbox_Tests.debug.xcconfig */,
+				ACA14DC18C0DB11CA9EA6AF35E466F7F /* Pods-ThodianAIToolbox_Tests.release.xcconfig */,
+			);
+			name = "Pods-ThodianAIToolbox_Tests";
+			path = "Target Support Files/Pods-ThodianAIToolbox_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				46D82D534365377A618CB53754B3E6B5 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				91137C87F9BC2CAF11DB86D9E553096D /* Products */,
+				04BAE968F25A166720BA25E02F723585 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6437DAD6F60CD36A00B5BAB3D00F33D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33DC7C1F70E70CD5D31ED48776A2874 /* ThodianAIToolbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C940761FF5DBF97B04DED47CBAF9BD2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE63958E6C397BAFCC254BB2B51D1BC /* Pods-ThodianAIToolbox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11AD3F3635D978B97083BED639BB090A /* Pods-ThodianAIToolbox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2BE50BE7D3C479DA1B67191E45AFBF /* Build configuration list for PBXNativeTarget "Pods-ThodianAIToolbox_Tests" */;
+			buildPhases = (
+				C940761FF5DBF97B04DED47CBAF9BD2C /* Headers */,
+				78DA3168A13F253532FC70C341411E3D /* Sources */,
+				69E15EE9B06075970643CBA0AEDEB167 /* Frameworks */,
+				14BD27EA099005C42B58955D9BC586C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDB4724ED0F2C2D49DEB23AB946707A /* PBXTargetDependency */,
+			);
+			name = "Pods-ThodianAIToolbox_Tests";
+			productName = Pods_ThodianAIToolbox_Tests;
+			productReference = 239AD21C23EDCBC0DC0C7E0204D30AE3 /* Pods-ThodianAIToolbox_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6E44C90B334F624453FD530A577731C /* ThodianAIToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1452E6A6FC264B76924E1EA3DDE91E63 /* Build configuration list for PBXNativeTarget "ThodianAIToolbox" */;
+			buildPhases = (
+				6437DAD6F60CD36A00B5BAB3D00F33D4 /* Headers */,
+				5E0F6B0DF1C10F9BD44DB6505D887ADC /* Sources */,
+				707A8F6B6A2D309054710EF3F85B696F /* Frameworks */,
+				9C8353CF115545A8312C09A7D4599ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThodianAIToolbox;
+			productName = ThodianAIToolbox;
+			productReference = A66A6E5A7A8B73EAEDDD8B334B7339C9 /* ThodianAIToolbox */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 91137C87F9BC2CAF11DB86D9E553096D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11AD3F3635D978B97083BED639BB090A /* Pods-ThodianAIToolbox_Tests */,
+				A6E44C90B334F624453FD530A577731C /* ThodianAIToolbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BD27EA099005C42B58955D9BC586C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8353CF115545A8312C09A7D4599ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0F6B0DF1C10F9BD44DB6505D887ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39F2E0006AB26E4BD739BB7FA7877C /* ReplaceMe.swift in Sources */,
+				4ED101F93CDC071E1C52D0487DD9465C /* ThodianAIToolbox-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DA3168A13F253532FC70C341411E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7AD4E0969F78FC4F7ABCE609FD9387 /* Pods-ThodianAIToolbox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDB4724ED0F2C2D49DEB23AB946707A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThodianAIToolbox;
+			target = A6E44C90B334F624453FD530A577731C /* ThodianAIToolbox */;
+			targetProxy = 43B3945DF7AACF9B79F0B47F074CB05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E67A0ABB19CE39E60F8194CD08C5390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FB8B9FD002894C587614D52FD345D5 /* ThodianAIToolbox.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThodianAIToolbox/ThodianAIToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThodianAIToolbox/ThodianAIToolbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ThodianAIToolbox/ThodianAIToolbox.modulemap";
+				PRODUCT_MODULE_NAME = ThodianAIToolbox;
+				PRODUCT_NAME = ThodianAIToolbox;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8513C49EAAEB47DEED938E4A2806FDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8D4FAD799E404E8050D667AC22DEED /* ThodianAIToolbox.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThodianAIToolbox/ThodianAIToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThodianAIToolbox/ThodianAIToolbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ThodianAIToolbox/ThodianAIToolbox.modulemap";
+				PRODUCT_MODULE_NAME = ThodianAIToolbox;
+				PRODUCT_NAME = ThodianAIToolbox;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D021A692C6C0066F6DAC487C09A5ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA14DC18C0DB11CA9EA6AF35E466F7F /* Pods-ThodianAIToolbox_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThodianAIToolbox_Tests/Pods-ThodianAIToolbox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThodianAIToolbox_Tests/Pods-ThodianAIToolbox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC3B40F798E3A615C5FD9BAEA91FFE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA585A922954B1E94A53EC2DF73E5778 /* Pods-ThodianAIToolbox_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThodianAIToolbox_Tests/Pods-ThodianAIToolbox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThodianAIToolbox_Tests/Pods-ThodianAIToolbox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1452E6A6FC264B76924E1EA3DDE91E63 /* Build configuration list for PBXNativeTarget "ThodianAIToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E67A0ABB19CE39E60F8194CD08C5390 /* Debug */,
+				8513C49EAAEB47DEED938E4A2806FDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2BE50BE7D3C479DA1B67191E45AFBF /* Build configuration list for PBXNativeTarget "Pods-ThodianAIToolbox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3B40F798E3A615C5FD9BAEA91FFE11 /* Debug */,
+				D021A692C6C0066F6DAC487C09A5ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

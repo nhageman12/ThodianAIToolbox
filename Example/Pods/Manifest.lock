@@ -1,0 +1,16 @@
+PODS:
+  - ThodianAIToolbox (0.1.0)
+
+DEPENDENCIES:
+  - ThodianAIToolbox (from `../`)
+
+EXTERNAL SOURCES:
+  ThodianAIToolbox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThodianAIToolbox: cc6a59c79f579561dc698bad29e9cd355053f2c6
+
+PODFILE CHECKSUM: fb8617fac2452dab07f109d6f7445aa09b2af1a2
+
+COCOAPODS: 1.11.3
