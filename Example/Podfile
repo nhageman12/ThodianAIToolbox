@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ThodianAIToolbox_Tests' do
+  pod 'ThodianAIToolbox', :path => '../'
+  
+  
+end
